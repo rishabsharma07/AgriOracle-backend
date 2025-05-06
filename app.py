@@ -90,7 +90,8 @@ cure_recommendations = {
 
 @app.route('/')
 def index():
-    return render_template('index.html')
+    return {"message": "API is running"}
+
 
 @app.route('/predict_disease', methods=['POST'])
 def predict_disease():
