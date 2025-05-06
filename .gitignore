@@ -1,0 +1,26 @@
+# Python virtual environment
+venv/
+env/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment variables
+.env
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# TensorFlow model files
+*.pb
+*.h5
+*.onnx
+*.ckpt
+
+# Pytest
+.cache/
+
+# VSCode settings (optional)
+.vscode/
